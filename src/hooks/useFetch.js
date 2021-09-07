@@ -21,6 +21,7 @@ const useFetch = ({ url, method, body = null }) => {
         console.dir(err);
         setLoading(false);
         setError(err);
+        setResponse(null);
       }
     }
     url && _fetch();

@@ -14,8 +14,8 @@ const UseUserHook = () => {
       {error && <kbd>Ooooops... Error 😢</kbd>}
       {loading ? (<p>Loading...</p>) : (
         <div>
-          <h1>{response.title}</h1>
-          <p>{response.body}</p>
+          <h1>{response?.title}</h1>
+          <p>{response?.body}</p>
         </div>
       )}
       <div>

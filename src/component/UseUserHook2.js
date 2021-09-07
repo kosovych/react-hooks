@@ -20,8 +20,8 @@ const UseUserHook = () => {
             width="100"
             height="100"
           />
-          <h1>{response.name}</h1>
-          <p>{response.email}</p>
+          <h1>{response?.name}</h1>
+          <p>{response?.email}</p>
         </div>
       )}
       <div>
